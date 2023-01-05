@@ -1,0 +1,85 @@
+.sidenav {
+    height:  100%;
+    /* 100% full height */
+    height: 100%;
+    width: 0%;
+    /* 0 width - change this with JavaScript */
+    position: fixed; /* stay in place */
+    z-index: 1; /* stay on top */
+    top: 0; /* stay at the top */
+    right: 0;
+    background-color: #111; /* black */
+    overflow-x: hidden; /* disable horizontal scroll */
+    transition: 0.5s; /* place content 60px from the top */
+    padding-top: 60px; /* 0.5 second transition effect to slide in the sidenav */
+}
+#newpage {
+    position: absolute;
+    top: 2.7%;
+    font-size: 25px;
+    margin-right: 50px;
+
+}
+
+#list-item5 {
+    position: fixed;
+}
+
+#icon-stick:hover {
+    position: sticky;
+    position: -webkit-sticky !important; 
+    height: 40px;
+    top: 50px;
+
+
+}
+
+
+
+#btn:hover  {
+   box-sizing: border-box !important;
+   background-color: darkblue !important; 
+   border: 1px solid none !important ;
+
+}
+
+
+.closeNav {
+    position: absolute;
+    top: 0%;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.onclick {
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+}
+ 
+body {
+background-color: rgb(14, 13, 13);
+}
+
+a{ 
+    text-decoration: none;
+    display: block;
+    color: yellow;
+    text-align: center;
+   
+}
+
+
+
+
+
+.light-mode {
+    background-color: white;
+    color: black;
+
+}
+
+
+
